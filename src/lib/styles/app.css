@@ -1,17 +1,17 @@
 @font-face {
     font-family: "SF font";
-    src: url("fonts/LibreCaslonText-Regular.woff2") format("woff2");
+    src: url("/fonts/LibreCaslonText-Regular.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "SF font";
-    src: url("fonts/LibreCaslonText-Bold.woff2") format("woff2");
+    src: url("/fonts/LibreCaslonText-Bold.woff2") format("woff2");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "SF font";
-    src: url("fonts/LibreCaslonText-Italic.woff2") format("woff2");
+    src: url("/fonts/LibreCaslonText-Italic.woff2") format("woff2");
     font-style: italic;
 }
 
