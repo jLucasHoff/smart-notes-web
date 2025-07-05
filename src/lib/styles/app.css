@@ -75,6 +75,10 @@ main {
     gap: var(--gap-ref);
 }
 
+a {
+    text-decoration: none;
+}
+
 button {
     width: fit-content;
 

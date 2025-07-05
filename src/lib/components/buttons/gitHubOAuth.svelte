@@ -1,12 +1,15 @@
 <script lang="ts">
     import { FontAwesomeIcon } from "@fortawesome/svelte-fontawesome"
     import { faGithub } from "@fortawesome/free-brands-svg-icons"
+
+    const GITHUBOAUTHFILE: string = "/login/github";
+
 </script>
 
-<button type="button">GitHub <FontAwesomeIcon icon={faGithub} /></button>
+<a href={GITHUBOAUTHFILE}>GitHub <FontAwesomeIcon icon={faGithub} /></a>
 
 <style>
-    button {
+    a {
         @media (prefers-color-scheme: dark) {
             background-color: transparent;    
         }

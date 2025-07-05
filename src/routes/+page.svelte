@@ -7,7 +7,7 @@
 
     </div>
     <div>
-        <h2>O melhor aplicativo de notas para estudos do mundo. De graça para sempre. Guardado em seu github.</h2>
+        <h2>O melhor aplicativo de anotação em notas do mundo. De graça para sempre. Guardado em seu github.</h2>
         <p>Logue com sua conta do GitHub para utilizar o SmartNotes</p>
         <GitHubOAuth />
     </div>

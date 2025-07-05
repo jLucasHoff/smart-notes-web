@@ -1,5 +1,5 @@
 <nav>
-    <h1><span>Smart Notes</span></h1>
+    <h1><span>SmartNotes</span></h1>
 </nav>
 
 <style>
