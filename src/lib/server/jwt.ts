@@ -30,6 +30,7 @@ export const VERIFY_AND_GET_USER = (cookies: Cookies): IUserPayload | null => {
 
 	try {
 		const DECODED = jwt.verify(TOKEN, JWT_SECRET);
+		console.log(DECODED)
 		return DECODED as IUserPayload;
 	} 
     catch (err) { return null; }
