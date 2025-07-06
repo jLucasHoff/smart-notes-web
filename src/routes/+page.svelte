@@ -1,5 +1,14 @@
-<script>
+<script lang="ts">
     import GitHubOAuth from "$lib/components/buttons/gitHubOAuth.svelte";
+    import type { PageData } from "./$types";
+
+    export let data: PageData;
+
+    $: {
+        if (data.user) {
+            console.log("usuário logado: ", data.user.name);
+        }
+    }
 
 </script>
 <section>
