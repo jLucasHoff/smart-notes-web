@@ -39,12 +39,16 @@ body {
 
     @media (prefers-color-scheme: dark) {
         --background-color: var(--dark-color);
+        --background-contrast-color: var(--light-color);
         --text-color: var(--light-color);
+        --text-contrast-color: var(--dark-color);
     }
 
     @media (prefers-color-scheme: light) {
         --background-color: var(--light-color);
+        --background-contrast-color: var(--dark-color);
         --text-color: var(--dark-color);
+        --text-contrast-color: var(--light-color);
     }
 
     background-color: var(--background-color);

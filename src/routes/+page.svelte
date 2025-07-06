@@ -6,7 +6,7 @@
 
     $: {
         if (data.user) {
-            console.log("usuário logado: ", data.user.name);
+            console.log("usuário logado: ", data.user);
         }
     }
 

@@ -2,7 +2,6 @@ import jwt from "jsonwebtoken";
 import { JWT_SECRET } from "$env/static/private";
 
 export interface IUserPayload {
-    name: string | null,
     username: string
 }
 
